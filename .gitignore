@@ -1,23 +1,96 @@
+# Gradle files
+.gradle/
+.gradletasknamecache
+gradle-app.setting
+
+# Build directories
+build/
+**/build/
+.externalNativeBuild/
+.cxx/
+
+# IDE - Android Studio
+.idea/
 *.iml
+*.ipr
+*.iws
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Kotlin
+.kotlin/
+.kotlinc
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+.Trash-*
+
+# Miscellaneous
+.externalNativeBuild
+.cxx
+
+# User-specific configurations
+local.properties
+gradle.properties
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Generated files
+.apt_generated
+.apt_generated_tests
+bin/
+gen/
+
+# Android specific
 *.apk
 *.aab
+*.ap_
 *.dex
-*.class
-*.log
+*.so
 *.keystore
 *.jks
 *.pem
+*.p12
+*.pfx
+*.properties
 
-.gradle/
-.idea/
-.kotlin/
-.DS_Store
-.externalNativeBuild/
-.cxx/
-.vscode/
+# Logs
+*.log
+*.log.*
 
-build/
-**/build/
-/captures/
+# Built application files
+*.apk
+*.ap_
+*.aab
 
-local.properties
+# Test coverage
+/coverage/
+*.exec
+*.em
+.jacoco
+
+# Android Profiler
+profiler-results.txt
+
+# Emulator snapshots
+snapshots/
+
+# Secret files
+*.gpg
+secrets.properties

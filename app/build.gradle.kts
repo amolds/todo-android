@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.olds.swiftandroid"
+    namespace = "com.olds.todoandroid"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -15,7 +15,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.olds.swiftandroid"
+        applicationId = "com.olds.todoandroid"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -47,6 +47,7 @@ dependencies {
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
+    implementation(libs.androidx.navigation.compose)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.hilt.android)
